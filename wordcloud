@@ -1,3 +1,4 @@
+# ui.r
 library(shiny)
 
 shinyUI(fluidPage(
@@ -43,6 +44,7 @@ shinyUI(fluidPage(
 ))
 
 
+#server.r
 library(shiny)
 library(wordcloud)
 library(tm)
